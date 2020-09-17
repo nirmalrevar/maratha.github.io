@@ -1,0 +1,35 @@
+[{
+		"relation": ["delegate_permission/common.get_login_creds"],
+		"target": {
+			"namespace": "web",
+			"site": "https://marathafamily.com"
+		}
+	},
+	{
+		"relation": ["delegate_permission/common.handle_all_urls"],
+		"target": {
+			"namespace": "web",
+			"site": "https://marathafamily.com"
+		}
+	},
+	{
+		"relation": ["delegate_permission/common.get_login_creds"],
+		"target": {
+			"namespace": "android_app",
+			"package_name": "com.doxbay.marathafamily",
+			"sha256_cert_fingerprints": [
+				"D5:D9:6E:1B:EF:2F:1B:E3:02:14:9F:F9:95:ED:E7:77:F2:04:CC:1F:00:79:AB:D6:05:D9:D7:C9:61:63:DE:94"
+			]
+		}
+	},
+	{
+		"relation": ["delegate_permission/common.handle_all_urls"],
+		"target": {
+			"namespace": "android_app",
+			"package_name": "com.doxbay.marathafamily",
+			"sha256_cert_fingerprints": [
+				"D5:D9:6E:1B:EF:2F:1B:E3:02:14:9F:F9:95:ED:E7:77:F2:04:CC:1F:00:79:AB:D6:05:D9:D7:C9:61:63:DE:94"
+			]
+		}
+	}
+]
